@@ -1,0 +1,65 @@
+.cal-title
+{
+    margin-top: 1rem;
+    text-align: center;
+    font-family: Mooli, sans-serif;
+    font-weight: bold;
+}
+
+.container
+{
+    text-align: center;
+}
+
+body
+{
+    background: rgb(241,211,255);
+    background: linear-gradient(38deg, rgba(241,211,255,1) 0%, rgba(148,217,202,1) 100%);
+}
+
+body .container .row .calculatorAndScreen
+{
+    background: linear-gradient(135deg, #3a3a3a, #000000);
+    margin-top: 3rem;
+    /* border-radius: 10px 10px 0 0; */
+}
+
+body .container .row .calculatorAndScreen #numbers-and-operators input
+{
+    color: #4a4a4a;
+    font-size: 2rem;
+    /* text-align: center;
+    justify-content: center; */
+    /* padding: 0.7rem 9rem; */
+}
+
+body .container .row .calculatorAndScreen #numbers-and-operators input:hover
+{
+    background-color: rgb(224, 255, 245);
+}
+
+body .container .row .calculatorAndScreen #display
+{
+    height: 10rem;
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+.signatureSection
+{
+    text-align: right;
+}
+
+.HenrySignature
+{
+    margin-top: 0.5rem;
+    color: aliceblue;
+    margin-right: 2rem;
+}
+
+.nameCreator
+{
+    font-family: Dancing Script, sans-serif;
+    font-size: large;
+    color: cyan;
+}
